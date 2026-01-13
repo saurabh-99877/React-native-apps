@@ -34,7 +34,5 @@ export async function playbackService (){
     })
     TrackPlayer.addEventListener(Event.RemotePrevious, () => {
         TrackPlayer.skipToPrevious()
-    })
-
-    
+    }) 
 }
